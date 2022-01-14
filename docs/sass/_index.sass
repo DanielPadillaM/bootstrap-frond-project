@@ -1,0 +1,93 @@
+body
+    font-family: sans-serif
+    color: $base-text-clr
+
+h1,h2,h3  
+    color: $title-clr
+    font-weight: bold
+h2
+    font-size: $title-fs
+h3
+    font-size: $subtitle-fs
+
+.services__title
+    font-size: $biggest-fs
+
+.services__img
+    max-height: 80px
+
+.btn-dark-blue
+    background-color: $title-clr
+    color: #fff
+
+.btn-light-grey
+    background-color: $light-grey
+    color: #fff
+
+.bg-white
+    background-color: $white
+
+.navbar
+    &__img
+        height: 40px
+.nav-link
+    color: $link-clr
+
+
+.nav-lang
+    border-top: 1px solid $title-clr
+    @media (min-width: 992px)
+        border-top: none
+        border-left: 1px solid $title-clr
+.toggle-btn
+    color: $link-clr
+    border-color: $link-clr
+.toggle-content
+    position: relative
+    border-top: 4px solid $link-clr
+    border-bottom: 4px solid $link-clr
+    &::before
+        content: ""
+        position: absolute
+        left: 0
+        top: 43%
+        height: 4px
+        width: 100%
+        background-color: $link-clr
+
+.border-clr
+    border-top: 1px solid $title-clr
+
+.border-right
+    border-right: 1px solid $light-grey
+
+main
+    padding-top: 100px
+
+.hero
+    &__title
+        font-size: 1.2rem
+        @media (min-width: 768px)
+            font-size: $biggest-fs
+    &__text
+        color: #afc3d3
+    &__img
+        max-height: 50vh
+
+.sct-bg
+    background-color: $sct-bg
+
+.small-text
+    font-size: $small-fs
+
+
+.text-big
+    font-size: $big-fs
+
+.footer
+    background-color: $footer-bg
+    &__link
+        padding: 0
+
+.copyright
+    font-size: $small-fs
